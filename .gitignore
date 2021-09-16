@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MauiGetLocation/.vs/MauiGetLocation/v17
+/MauiGetLocation/MauiGetLocation/obj
+/MauiGetLocation/MauiGetLocation/bin/Debug/net6.0-android
