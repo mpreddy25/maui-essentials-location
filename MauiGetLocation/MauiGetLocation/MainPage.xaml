@@ -22,7 +22,7 @@
                 HorizontalOptions="Center" />
 
             <Label 
-                Text="Current count: 0"
+                Text="Click the below button to get Current Location"
                 Grid.Row="2"
                 FontSize="18"
                 FontAttributes="Bold"
@@ -30,11 +30,12 @@
                 HorizontalOptions="Center" />
 
             <Button 
-                Text="Click me"
+                Text="Get Current Location"
                 FontAttributes="Bold"
                 Grid.Row="3"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
+                x:Name="GetCurrentLocationButton"
                 HorizontalOptions="Center" />
 
             <Image Grid.Row="4"
